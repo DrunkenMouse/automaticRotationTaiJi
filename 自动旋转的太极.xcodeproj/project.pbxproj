@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16779B881DEFFC7B00555B6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16779B871DEFFC7B00555B6D /* main.m */; };
+		16779B8B1DEFFC7B00555B6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16779B8A1DEFFC7B00555B6D /* AppDelegate.m */; };
+		16779B8E1DEFFC7B00555B6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16779B8D1DEFFC7B00555B6D /* ViewController.m */; };
+		16779B911DEFFC7B00555B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16779B8F1DEFFC7B00555B6D /* Main.storyboard */; };
+		16779B931DEFFC7B00555B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16779B921DEFFC7B00555B6D /* Assets.xcassets */; };
+		16779B961DEFFC7B00555B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16779B941DEFFC7B00555B6D /* LaunchScreen.storyboard */; };
+		16779BA11DEFFC7B00555B6D /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16779BA01DEFFC7B00555B6D /* _______Tests.m */; };
+		16779BAC1DEFFC7B00555B6D /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16779BAB1DEFFC7B00555B6D /* _______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16779B9D1DEFFC7B00555B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16779B7B1DEFFC7B00555B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16779B821DEFFC7B00555B6D;
+			remoteInfo = "自动旋转的太极";
+		};
+		16779BA81DEFFC7B00555B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16779B7B1DEFFC7B00555B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16779B821DEFFC7B00555B6D;
+			remoteInfo = "自动旋转的太极";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16779B831DEFFC7B00555B6D /* 自动旋转的太极.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自动旋转的太极.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16779B871DEFFC7B00555B6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16779B891DEFFC7B00555B6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16779B8A1DEFFC7B00555B6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16779B8C1DEFFC7B00555B6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16779B8D1DEFFC7B00555B6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16779B901DEFFC7B00555B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16779B921DEFFC7B00555B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16779B951DEFFC7B00555B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16779B971DEFFC7B00555B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16779B9C1DEFFC7B00555B6D /* 自动旋转的太极Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自动旋转的太极Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16779BA01DEFFC7B00555B6D /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		16779BA21DEFFC7B00555B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16779BA71DEFFC7B00555B6D /* 自动旋转的太极UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自动旋转的太极UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16779BAB1DEFFC7B00555B6D /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		16779BAD1DEFFC7B00555B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16779B801DEFFC7B00555B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16779B991DEFFC7B00555B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16779BA41DEFFC7B00555B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16779B7A1DEFFC7B00555B6D = {
+			isa = PBXGroup;
+			children = (
+				16779B851DEFFC7B00555B6D /* 自动旋转的太极 */,
+				16779B9F1DEFFC7B00555B6D /* 自动旋转的太极Tests */,
+				16779BAA1DEFFC7B00555B6D /* 自动旋转的太极UITests */,
+				16779B841DEFFC7B00555B6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16779B841DEFFC7B00555B6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16779B831DEFFC7B00555B6D /* 自动旋转的太极.app */,
+				16779B9C1DEFFC7B00555B6D /* 自动旋转的太极Tests.xctest */,
+				16779BA71DEFFC7B00555B6D /* 自动旋转的太极UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16779B851DEFFC7B00555B6D /* 自动旋转的太极 */ = {
+			isa = PBXGroup;
+			children = (
+				16779B891DEFFC7B00555B6D /* AppDelegate.h */,
+				16779B8A1DEFFC7B00555B6D /* AppDelegate.m */,
+				16779B8C1DEFFC7B00555B6D /* ViewController.h */,
+				16779B8D1DEFFC7B00555B6D /* ViewController.m */,
+				16779B8F1DEFFC7B00555B6D /* Main.storyboard */,
+				16779B921DEFFC7B00555B6D /* Assets.xcassets */,
+				16779B941DEFFC7B00555B6D /* LaunchScreen.storyboard */,
+				16779B971DEFFC7B00555B6D /* Info.plist */,
+				16779B861DEFFC7B00555B6D /* Supporting Files */,
+			);
+			path = "自动旋转的太极";
+			sourceTree = "<group>";
+		};
+		16779B861DEFFC7B00555B6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16779B871DEFFC7B00555B6D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16779B9F1DEFFC7B00555B6D /* 自动旋转的太极Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16779BA01DEFFC7B00555B6D /* _______Tests.m */,
+				16779BA21DEFFC7B00555B6D /* Info.plist */,
+			);
+			path = "自动旋转的太极Tests";
+			sourceTree = "<group>";
+		};
+		16779BAA1DEFFC7B00555B6D /* 自动旋转的太极UITests */ = {
+			isa = PBXGroup;
+			children = (
+				16779BAB1DEFFC7B00555B6D /* _______UITests.m */,
+				16779BAD1DEFFC7B00555B6D /* Info.plist */,
+			);
+			path = "自动旋转的太极UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16779B821DEFFC7B00555B6D /* 自动旋转的太极 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16779BB01DEFFC7B00555B6D /* Build configuration list for PBXNativeTarget "自动旋转的太极" */;
+			buildPhases = (
+				16779B7F1DEFFC7B00555B6D /* Sources */,
+				16779B801DEFFC7B00555B6D /* Frameworks */,
+				16779B811DEFFC7B00555B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自动旋转的太极";
+			productName = "自动旋转的太极";
+			productReference = 16779B831DEFFC7B00555B6D /* 自动旋转的太极.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16779B9B1DEFFC7B00555B6D /* 自动旋转的太极Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16779BB31DEFFC7B00555B6D /* Build configuration list for PBXNativeTarget "自动旋转的太极Tests" */;
+			buildPhases = (
+				16779B981DEFFC7B00555B6D /* Sources */,
+				16779B991DEFFC7B00555B6D /* Frameworks */,
+				16779B9A1DEFFC7B00555B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16779B9E1DEFFC7B00555B6D /* PBXTargetDependency */,
+			);
+			name = "自动旋转的太极Tests";
+			productName = "自动旋转的太极Tests";
+			productReference = 16779B9C1DEFFC7B00555B6D /* 自动旋转的太极Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16779BA61DEFFC7B00555B6D /* 自动旋转的太极UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16779BB61DEFFC7B00555B6D /* Build configuration list for PBXNativeTarget "自动旋转的太极UITests" */;
+			buildPhases = (
+				16779BA31DEFFC7B00555B6D /* Sources */,
+				16779BA41DEFFC7B00555B6D /* Frameworks */,
+				16779BA51DEFFC7B00555B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16779BA91DEFFC7B00555B6D /* PBXTargetDependency */,
+			);
+			name = "自动旋转的太极UITests";
+			productName = "自动旋转的太极UITests";
+			productReference = 16779BA71DEFFC7B00555B6D /* 自动旋转的太极UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16779B7B1DEFFC7B00555B6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王奥东";
+				TargetAttributes = {
+					16779B821DEFFC7B00555B6D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					16779B9B1DEFFC7B00555B6D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 16779B821DEFFC7B00555B6D;
+					};
+					16779BA61DEFFC7B00555B6D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 16779B821DEFFC7B00555B6D;
+					};
+				};
+			};
+			buildConfigurationList = 16779B7E1DEFFC7B00555B6D /* Build configuration list for PBXProject "自动旋转的太极" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16779B7A1DEFFC7B00555B6D;
+			productRefGroup = 16779B841DEFFC7B00555B6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16779B821DEFFC7B00555B6D /* 自动旋转的太极 */,
+				16779B9B1DEFFC7B00555B6D /* 自动旋转的太极Tests */,
+				16779BA61DEFFC7B00555B6D /* 自动旋转的太极UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16779B811DEFFC7B00555B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16779B961DEFFC7B00555B6D /* LaunchScreen.storyboard in Resources */,
+				16779B931DEFFC7B00555B6D /* Assets.xcassets in Resources */,
+				16779B911DEFFC7B00555B6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16779B9A1DEFFC7B00555B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16779BA51DEFFC7B00555B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16779B7F1DEFFC7B00555B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16779B8E1DEFFC7B00555B6D /* ViewController.m in Sources */,
+				16779B8B1DEFFC7B00555B6D /* AppDelegate.m in Sources */,
+				16779B881DEFFC7B00555B6D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16779B981DEFFC7B00555B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16779BA11DEFFC7B00555B6D /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16779BA31DEFFC7B00555B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16779BAC1DEFFC7B00555B6D /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16779B9E1DEFFC7B00555B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16779B821DEFFC7B00555B6D /* 自动旋转的太极 */;
+			targetProxy = 16779B9D1DEFFC7B00555B6D /* PBXContainerItemProxy */;
+		};
+		16779BA91DEFFC7B00555B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16779B821DEFFC7B00555B6D /* 自动旋转的太极 */;
+			targetProxy = 16779BA81DEFFC7B00555B6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16779B8F1DEFFC7B00555B6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16779B901DEFFC7B00555B6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16779B941DEFFC7B00555B6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16779B951DEFFC7B00555B6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16779BAE1DEFFC7B00555B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16779BAF1DEFFC7B00555B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16779BB11DEFFC7B00555B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自动旋转的太极/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16779BB21DEFFC7B00555B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自动旋转的太极/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16779BB41DEFFC7B00555B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自动旋转的太极Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自动旋转的太极.app/自动旋转的太极";
+			};
+			name = Debug;
+		};
+		16779BB51DEFFC7B00555B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自动旋转的太极Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自动旋转的太极.app/自动旋转的太极";
+			};
+			name = Release;
+		};
+		16779BB71DEFFC7B00555B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自动旋转的太极UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自动旋转的太极";
+			};
+			name = Debug;
+		};
+		16779BB81DEFFC7B00555B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自动旋转的太极UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自动旋转的太极";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16779B7E1DEFFC7B00555B6D /* Build configuration list for PBXProject "自动旋转的太极" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16779BAE1DEFFC7B00555B6D /* Debug */,
+				16779BAF1DEFFC7B00555B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16779BB01DEFFC7B00555B6D /* Build configuration list for PBXNativeTarget "自动旋转的太极" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16779BB11DEFFC7B00555B6D /* Debug */,
+				16779BB21DEFFC7B00555B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16779BB31DEFFC7B00555B6D /* Build configuration list for PBXNativeTarget "自动旋转的太极Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16779BB41DEFFC7B00555B6D /* Debug */,
+				16779BB51DEFFC7B00555B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16779BB61DEFFC7B00555B6D /* Build configuration list for PBXNativeTarget "自动旋转的太极UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16779BB71DEFFC7B00555B6D /* Debug */,
+				16779BB81DEFFC7B00555B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16779B7B1DEFFC7B00555B6D /* Project object */;
+}
