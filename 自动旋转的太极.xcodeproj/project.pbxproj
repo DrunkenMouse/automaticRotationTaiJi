@@ -15,6 +15,7 @@
 		16779B961DEFFC7B00555B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16779B941DEFFC7B00555B6D /* LaunchScreen.storyboard */; };
 		16779BA11DEFFC7B00555B6D /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16779BA01DEFFC7B00555B6D /* _______Tests.m */; };
 		16779BAC1DEFFC7B00555B6D /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16779BAB1DEFFC7B00555B6D /* _______UITests.m */; };
+		16779BBB1DEFFCA300555B6D /* TaiJiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16779BBA1DEFFCA300555B6D /* TaiJiView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		16779BA71DEFFC7B00555B6D /* 自动旋转的太极UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自动旋转的太极UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16779BAB1DEFFC7B00555B6D /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		16779BAD1DEFFC7B00555B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16779BB91DEFFCA300555B6D /* TaiJiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaiJiView.h; sourceTree = "<group>"; };
+		16779BBA1DEFFCA300555B6D /* TaiJiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaiJiView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				16779B8A1DEFFC7B00555B6D /* AppDelegate.m */,
 				16779B8C1DEFFC7B00555B6D /* ViewController.h */,
 				16779B8D1DEFFC7B00555B6D /* ViewController.m */,
+				16779BB91DEFFCA300555B6D /* TaiJiView.h */,
+				16779BBA1DEFFCA300555B6D /* TaiJiView.m */,
 				16779B8F1DEFFC7B00555B6D /* Main.storyboard */,
 				16779B921DEFFC7B00555B6D /* Assets.xcassets */,
 				16779B941DEFFC7B00555B6D /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				16779B8E1DEFFC7B00555B6D /* ViewController.m in Sources */,
 				16779B8B1DEFFC7B00555B6D /* AppDelegate.m in Sources */,
+				16779BBB1DEFFCA300555B6D /* TaiJiView.m in Sources */,
 				16779B881DEFFC7B00555B6D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

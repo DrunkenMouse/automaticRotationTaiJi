@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TaiJiView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    TaiJiView *taiji = [[TaiJiView alloc] initWithFrame:CGRectMake(50.0f, 80.0f, 230.0f, 320.0f)];
+    [self.view addSubview:taiji];
+    
 }
 
 - (void)didReceiveMemoryWarning {
